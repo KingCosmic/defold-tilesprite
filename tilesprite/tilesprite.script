@@ -1,0 +1,16 @@
+
+go.property('speedX', 0)
+go.property('speedY', .016)
+
+function init(self)
+	local scale = go.get_scale()
+	sprite.set_constant('#sprite', 'scale', vmath.vector4(scale.x, scale.y, 1, 1))
+	self.offset = { x = 0, y = 0 }
+end
+
+function update(self, dt)
+	self.offset.x = self.offset.x + self.speedX
+	self.offset.y = self.offset.y + self.speedY
+
+	sprite.set_constant('#sprite', 'offset', vmath.vector4(self.offset.x, self.offset.y, 0, 0))
+end
