@@ -18,7 +18,7 @@ embedded_components {
   type: "sprite"
   data: "tile_set: \"\"\n"
   "default_animation: \"\"\n"
-  "material: \"/builtins/materials/sprite.material\"\n"
+  "material: \"/tilesprite/tilesprite.material\"\n"
   "blend_mode: BLEND_MODE_ALPHA\n"
   ""
   position {
