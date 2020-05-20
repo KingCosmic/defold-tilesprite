@@ -1,13 +1,10 @@
-# Welcome to Defold
+## defold-tilesprite
+tilesprite gameobject for defold.
 
-This project was created from the "empty" project template.
+## Installation
+You can use the tilesprite in your own project by adding this project as a Defold library dependency. Open your game.project file and in the dependencies field under project add:
 
-The settings in ["game.project"](defold://open?path=/game.project) are all the default. A bootstrap empty ["main.collection"](defold://open?path=/main/main.collection) is included.
+https://github.com/KingCosmic/defold-tilesprite/archive/master.zip
 
-Check out [the documentation pages](https://defold.com/learn) for examples, tutorials, manuals and API docs.
-
-If you run into trouble, help is available in [our forum](https://forum.defold.com).
-
-Happy Defolding!
-
----
+Basic usage
+Add the tilesprite.go to a collection. Then modify the speed values of the script and the atlast and default animation of the sprite
